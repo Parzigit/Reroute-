@@ -1,0 +1,23 @@
+Honest Bayesian vs Fuzzy Comparison — Summary Statistics
+============================================================
+
+1. Posterior Flatness
+   Bayesian RB sensitivity: ZERO (RB is binary in CPT)
+   Fuzzy RB sensitivity: continuous via membership functions
+   PU=30%: Bayes Δ=0.000000, Fuzzy Δ=0.7759
+   PU=50%: Bayes Δ=0.000000, Fuzzy Δ=0.5705
+   PU=60%: Bayes Δ=0.000000, Fuzzy Δ=0.4416
+   PU=70%: Bayes Δ=0.000000, Fuzzy Δ=0.3015
+
+2. Decision Agreement: 56.9%
+   Bayes admits that Fuzzy blocks: 4315 cases
+   Disagreement in PU range: 5%-90%
+
+3. Path Ranking Discriminability
+   Fuzzy spread: 0.5076 vs Bayesian: 0.1098
+   Fuzzy is 4.6x more discriminating for path selection
+
+4. Admission Quality (n=5000)
+   Bayesian median RB: 389.3 Mbps
+   Fuzzy median RB:    451.2 Mbps
+   Bayes-only admits:  2384 (median RB=282.6)
